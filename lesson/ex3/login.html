@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Login</h1>
+    <!--データを送信するには送信先(action)と送信方法(method)を書く-->
+    <!--method:Get（検索）/Post（ログイン）-->
+    <form action="test.php" method="post">
+        <!--for id-->
+        <label for="email">メール</label>
+        <!--name属性を書かないとエラーを発生する、サーバーに送信したい情報を書く、コンパイルエラーを起こせないように英語で書く必要がある-->
+        <input type="text" id="email" name="email">
+        <label for="password">パスワード</label>
+        <input type="password" id="password" name="password">
+        <!--ボタン-->
+        <button>ログイン</button>
+
+    </form>
+</body>
+
+</html>
