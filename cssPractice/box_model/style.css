@@ -1,0 +1,26 @@
+p{
+    width: 80%;
+    background-color: beige;
+    /*内边距 パディング コンテンツとボーダーの間の空白*/
+    padding: 30px;
+    /*ボーダーのスタイル（種類）*/
+    /*dashed 上下 solid 左右*/
+    border-style: dashed solid; 
+    /*ボーダーの太さ*/
+    border-width: 5px;
+    /*ボーダーのの色*/
+    border-color: red blue yellow green;
+    /*ボーダーの角丸の半径*/
+    border-radius: 20px;
+    /*真ん中に揃える*/
+    /*必须写width 否则无法进行居中操作*/
+    margin: 0 auto;
+}
+h1{
+    width: 80%;
+    background-color: beige;
+    border-top: 5px solid red;
+    border-bottom: 5px solid purple;
+    padding-top: 30px;
+    margin: 100px;
+}

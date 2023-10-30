@@ -1,0 +1,36 @@
+header{
+    background-color: rgb(164, 213, 233);
+    padding: 20px 0;
+}
+
+ul{
+    /*箇条書きの・を削除*/
+    list-style: none;
+    /*たちを横並びにする*/
+    display: flex;
+    /*隙間をつくる*/
+    gap: 0 10px;
+    /*中央*/
+    /*justify-content: center;*/
+    justify-content: end;
+}
+
+.last{
+    margin-right: 30px;
+}
+
+.blog-contents{
+    display: flex;
+    width: 90%;
+    gap: 0 20px;
+    /*中身を中央*/
+    justify-content: center;
+    /*箱そのものを中央*/
+    margin: 0 auto;
+}
+.blog{
+    width: 30%;
+}
+img{
+    width: 100%
+}
