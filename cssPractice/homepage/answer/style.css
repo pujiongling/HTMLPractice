@@ -1,0 +1,50 @@
+body{
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+/*ヘッダー部分*/
+header{
+    background-color: #fff5ee;
+    padding: 30px 0;
+    font-size: 25px;
+}
+
+ul{
+    /*メニュー横並び*/
+    display: flex;
+    /*要素を離れ*/
+    /*0 上下; 30px 左右*/
+    gap: 0 30px;
+    /*中央に並べる*/
+    /*displayとセットに使う 把内容放到横着排列后的最中间*/
+    justify-content: center;
+}
+/*ヘッダー部分 リンクにカーソルを合わせたら赤色にする*/
+a:hover{
+    color: red;
+}
+
+h1{
+    /*将文字放到h1最中间*/
+    text-align: center;
+    margin: 20px 0;
+    font-size: 25px;
+    
+}
+/*記事一覧の対応*/
+.blog-contents{
+    width: 80%;
+    /*把blog-contents箱そのものをウェブpageの中央に*/
+    margin:0 auto;
+    display: flex;
+    /*把箱内的部分居中*/
+    justify-content: center;
+    gap: 0 16px;
+}
+/*記事の大きさを設定*/
+.blog-article{
+    width: 30%;
+}
+/*画像の大きさを設定*/
+img{
+    width: 100%;
+}
